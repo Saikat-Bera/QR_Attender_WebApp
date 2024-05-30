@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg: #BDE0FE;
+    --btn-bg: #FB6F92;
+    --text-dark: #000000;
+    --text-light: #ffffff;
+}
+
+
+body {
+    font-family: "Anonymous Pro", monospace;
+    width: 100vw;
+    height: 300vh;
+    background: var(--main-bg);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hero_details_container {
+    padding: 2rem 0 0 5rem;
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: relative;
+}
+
+.hero_image {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_details_container_heading {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 10%;
+}
+
+.hero_details_container_heading h1 {
+    font-weight: 200;
+}
+
+.hero_details_container_herotext {
+    width: 100%;
+    height: fit-content;
+}
+
+.Experienced {
+    font-weight: 200;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.app_devaloper {
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+.explore_link {
+    margin: 1.5rem 0 1.5rem 0;
+    width: 244px;
+    height: 80px;
+    background: var(--btn-bg);
+    padding: 0 10px 0 10px;
+}
+
+.explore_link a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.explore_link p {
+    width: fit-content;
+    font-size: 2rem;
+    color: var(--text-light);
+}
+
+.explore_link img {
+    width: 50px;
+}
+
+
+/* here starts 2nd section */
+
+
+.content{
+    width: 100%;
+    height: 100vh;
+}
+.about_me{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.profile_sec{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile_image{
+    width: 350px;   
+    height: 350px;
+    border-radius: 10%;
+    background: rgb(255, 255, 255);
+}
+
+
+
+.about_information{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    text-align: start;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 5rem;
+}
+.name_desc,
+.personal_info,
+.tools_used
+{
+    padding: 1.5rem 0 1.5rem 0;
+    width: 100%;
+    height: fit-content;
+    line-height: 1.2;
+}
+
+.personal_info{
+    line-height: 1.2;
+}
+
+/* stars form here the card  section  */
+
+.Qr_attender{
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Qr_attender_card{
+    width: 80vw;
+    height: 43rem;
+    background: var(--text-light);
+    border-radius: 2rem;
+    display: flex;
+}
+
+.hero_text_project{
+    width: 100%;
+    height: fit-content;
+    padding-left: 9rem;
+    margin-bottom: 2rem;
+}
+
+.example_video_showcase{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.example_video_showcase video{
+    width: 24rem;
+}
+
+
+.qr_attender_card_details{
+    width: 50%;
+    height: 100%;
+    padding-left: 2rem;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.qr_attender_card_details_text{
+   font-size: 3rem;
+}
+.playstore_logo{
+    margin: 2rem 0 2rem 0;
+}
+.qr_attender_card_copyright{
+    position: absolute;
+    bottom: 2rem;
+}
+.showcase_video{
+    
+}
