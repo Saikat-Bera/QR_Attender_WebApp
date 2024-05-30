@@ -56,6 +56,9 @@ a {
     align-items: center;
     justify-content: center;
 }
+.hero_image img{
+    width: 40vw;
+}
 
 .hero_details_container_heading {
     width: fit-content;
@@ -221,10 +224,7 @@ a {
 .playstore_logo{
     margin: 2rem 0 2rem 0;
 }
-.qr_attender_card_copyright{
+.qr_attender_card_copyright_01{
     position: absolute;
     bottom: 2rem;
-}
-.showcase_video{
-    
 }

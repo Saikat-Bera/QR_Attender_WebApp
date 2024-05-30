@@ -1,0 +1,80 @@
+@media only screen and (min-width: 13px) and (max-width: 600px) {
+    body{
+        height: fit-content;
+        overflow-x: hidden;
+    }
+    .hero {
+        width: 100%;
+    }
+
+    .app_devaloper {
+        font-size: 3rem;
+    }
+
+    .hero_image {
+        display: none;
+    }
+
+    .hero_details_container {
+        width: 100%;
+        padding: 15px;
+
+    }
+
+    .hero_details_container_heading {
+        top: 5%;
+        left: 15%;
+    }
+
+    .hero_details_container_heading h1 {
+        font-size: 3rem;
+    }
+
+    .Qr_attender {
+        width: 100vw;
+        height: fit-content;
+    }
+
+    .hero_text_project {
+        width: 100vw;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Qr_attender_card {
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .qr_attender_card_details {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .qr_attender_card_details_text {
+        font-size: 1.8rem;
+    }
+
+    .example_video_showcase video {
+        width: 250px;
+        /* display: none; */
+    }
+
+    .qr_attender_card_copyright_01 {
+        display: none;
+    }
+
+    .qr_attender_card_copyright_02 {
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+}
